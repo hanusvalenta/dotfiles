@@ -1,0 +1,10 @@
+{
+  "type": "object",
+  "properties": {
+    "SuppressWelcomeTab": {
+      "type": "boolean",
+      "title": "Suppress Welcome Tab",
+      "description": "Prevents the welcome tab from opening on first install"
+    }
+  }
+}

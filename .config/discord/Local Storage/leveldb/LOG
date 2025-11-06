@@ -1,0 +1,11 @@
+2025/11/05-21:59:32.098 10a4 Reusing MANIFEST /home/hans/.config/discord/Local Storage/leveldb/MANIFEST-000001
+2025/11/05-21:59:32.102 10a4 Recovering log #31
+2025/11/05-21:59:32.126 10a4 Level-0 table #36: started
+2025/11/05-21:59:32.171 10a4 Level-0 table #36: 2739301 bytes OK
+2025/11/05-21:59:32.177 10a4 Delete type=0 #31
+2025/11/05-22:06:32.681 10a5 Level-0 table #39: started
+2025/11/05-22:06:32.692 10a5 Level-0 table #39: 38388 bytes OK
+2025/11/05-22:06:32.696 10a5 Delete type=0 #37
+2025/11/05-22:08:32.682 10a5 Level-0 table #41: started
+2025/11/05-22:08:32.694 10a5 Level-0 table #41: 34683 bytes OK
+2025/11/05-22:08:32.699 10a5 Delete type=0 #38

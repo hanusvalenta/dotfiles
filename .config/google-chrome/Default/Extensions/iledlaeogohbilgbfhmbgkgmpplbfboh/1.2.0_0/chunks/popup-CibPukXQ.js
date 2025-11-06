@@ -1,0 +1,1 @@
+import{c as t,a as r,b as o}from"./chunk-QIZ4XBKF-Cg-wv63Z.js";import"./main-kvjJkSOS.js";var s=r("popup"),e=t("popup",a=>s.postMessage(a));s.onMessage(e.handleMessage);var{sendMessage:i,onMessage:g}=e;o(e);export{g as onMessage,i as sendMessage};

@@ -1,0 +1,1 @@
+import{j as s}from"./Icon-709cfd25.js";import{k as m,T as c,h as p,g as d}from"./useExtensionMessagesListener-47f2b437.js";const x=()=>{const{toasts:i}=m();return s.jsxs(c,{children:[i.map(({id:t,title:o,description:r,action:n,onDismiss:a,...e})=>s.jsx(p,{onDismiss:a,title:o,description:r,...e,children:n},t)),s.jsx(d,{})]})};export{x as T};

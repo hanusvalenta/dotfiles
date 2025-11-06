@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="assets/styles.css" />
+    <meta charset="utf-8" />
+    <meta name="color-scheme" content="dark light" />
+    <title>TinEye Reverse Image Search - Settings</title>
+    <script src="options.js"></script>
+  </head>
+
+  <body>
+    <main>
+      <section>
+        <p class="intro">
+          Right-click on any image on the web and select "Search image in TinEye" to find where an
+          image came from, how it's used, or find higher-resolution versions. These settings are
+          specific to this browser.
+        </p>
+
+        <div class="tab">
+          <h2>Open search results in:</h2>
+          <ul>
+            <li>
+              <input type="radio" id="background" name="tab_visibility" value="background" />
+              <label for="background">A new background tab</label>
+              <p class="tip">
+                Ideal for when you want to search multiple images and load the results in the
+                background, allowing you to stay on the current webpage.
+              </p>
+            </li>
+            <li>
+              <input type="radio" id="foreground" name="tab_visibility" value="foreground" />
+              <label for="foreground">A new active tab</label>
+              <p class="tip">
+                Perfect for single searches that open the TinEye results page immediately while
+                keeping opened webpages accessible in a separate background tab.
+              </p>
+            </li>
+            <li>
+              <input type="radio" id="current" name="tab_visibility" value="current" />
+              <label for="current">The current tab</label>
+              <p class="tip">
+                Best for single searches where navigating away from the webpage is acceptable.
+              </p>
+            </li>
+          </ul>
+        </div>
+
+        <div class="sort">
+          <h2>Sort search results by:</h2>
+          <ul>
+            <li>
+              <input type="radio" id="last_used" name="sort_order" value="last_used" />
+              <label for="last_used">Remember your last used sort order</label>
+            </li>
+            <li>
+              <input type="radio" id="best_match" name="sort_order" value="best_match" />
+              <label for="best_match">Best match</label>
+            </li>
+            <li>
+              <input type="radio" id="biggest_image" name="sort_order" value="biggest_image" />
+              <label for="biggest_image">Biggest image</label>
+            </li>
+            <li>
+              <input type="radio" id="most_changed" name="sort_order" value="most_changed" />
+              <label for="most_changed">Most changed</label>
+            </li>
+            <li>
+              <input type="radio" id="newest" name="sort_order" value="newest" />
+              <label for="newest">Newest first</label>
+            </li>
+            <li>
+              <input type="radio" id="oldest" name="sort_order" value="oldest" />
+              <label for="oldest">Oldest first</label>
+            </li>
+          </ul>
+
+          <p class="tip">
+            Note: This is just the initial search order. TinEye's results page makes it easy to
+            adjust the sorting and apply filters to help you find the image you need.
+          </p>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>

@@ -1,0 +1,1 @@
+import{x as t,s as r,aA as n}from"./store-09c6166c.js";import{s as g,b as i}from"./options-7a3fe88d.js";const e="shouldUseScribeSuggestions",c=async s=>{await g(e,s),chrome.runtime.sendMessage({messageType:"optionsChanged"})},m=async()=>{const{lrr2025:s}=t(r.getState()),o=n(s),a=await i(e);return typeof a=="boolean"?a:!!o};export{m as g,c as s};

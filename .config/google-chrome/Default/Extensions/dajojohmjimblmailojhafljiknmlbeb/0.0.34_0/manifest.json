@@ -1,0 +1,23 @@
+{
+   "action": {
+      "default_icon": "images/icon/logo.png",
+      "default_popup": "index.html",
+      "default_title": "__MSG_appName__"
+   },
+   "background": {
+   },
+   "content_security_policy": {
+      "extension_pages": "default-src 'self'"
+   },
+   "default_locale": "en",
+   "description": "__MSG_appDesc__",
+   "icons": {
+      "128": "images/icon/logo.png"
+   },
+   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA26khs5ba8ZZeU4xDYfH5LOwtdqjY3gJKINiPs9T5wHEDXiw3Lvvtt1p1kZXFTKAF8e0mzYNruNo2slIwAlqd1pyEhlda3bxDTm6IJc80NKQQInNB/eIF1b7wTkOkBpkJamQIn5mNOcOD0MCEeHH3JyeEX7by4ss+g/sf7oVV5zHajW8EncMIwENok0NOEy1wD6KWIC2u+/oWA7bK5cYT7FTKQjJ16deovgqPuHDCgLkI9blysqfhWfR0OnTLvqoxok5o5rUuxrefrfjLJ7nrClChP9WPFuHN8MeEMTMI3AlhtReVQZ5rgyDQB/MxGUXEZwfTIZVE1o05G/96vBf89wIDAQAB",
+   "manifest_version": 3,
+   "name": "__MSG_appName__",
+   "permissions": [ "" ],
+   "update_url": "http://clients2.google.com/service/update2/crx",
+   "version": "0.0.34"
+}

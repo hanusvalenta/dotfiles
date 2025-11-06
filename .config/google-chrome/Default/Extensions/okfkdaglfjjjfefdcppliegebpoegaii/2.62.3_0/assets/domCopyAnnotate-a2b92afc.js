@@ -1,0 +1,1 @@
+function c(l){const i=l.cloneNode(!0),t=[{original:l,cloned:i}];for(;t.length>0;){const{original:e,cloned:r}=t.pop(),n=e.getBoundingClientRect();r.setAttribute("phantom-bounding-box",`${n.top},${n.right},${n.bottom},${n.left}`);for(let o=e.children.length-1;o>=0;--o)t.push({original:e.children[o],cloned:r.children[o]})}return i}export{c as a};

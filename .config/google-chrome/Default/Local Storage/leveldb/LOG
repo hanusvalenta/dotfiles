@@ -1,0 +1,6 @@
+2025/11/06-00:56:17.977 5 Reusing MANIFEST /home/hans/.config/google-chrome/Default/Local Storage/leveldb/MANIFEST-000001
+2025/11/06-00:56:17.981 5 Recovering log #4
+2025/11/06-00:56:17.981 5 Reusing old log /home/hans/.config/google-chrome/Default/Local Storage/leveldb/000004.log 
+2025/11/06-00:58:40.652 5 Level-0 table #8: started
+2025/11/06-00:58:40.666 5 Level-0 table #8: 21774 bytes OK
+2025/11/06-00:58:40.672 5 Delete type=0 #4

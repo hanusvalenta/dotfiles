@@ -1,0 +1,117 @@
+/* Base styles for the options.html files */
+body {
+  color: #4c4c4c;
+  margin: 0;
+  font-family: "Open Sans", sans-serif;
+  font-size: 14px;
+  padding: 20px;
+  background-color: white;
+}
+
+h2 {
+  font-size: 16px;
+  margin-bottom: 12px;
+  margin-top: 0;
+}
+
+ul {
+  margin: 0;
+  list-style: none;
+  padding: 0 0 0 5px;
+}
+
+li {
+  padding: 8px 0;
+}
+
+li:nth-of-type(1) {
+  padding-top: 0;
+}
+
+li:last-of-type {
+  padding-bottom: 0;
+}
+
+.intro {
+  margin: 0 0 32px 0;
+}
+
+.tab {
+  padding-bottom: 32px;
+}
+
+.tip {
+  padding-top: 2px;
+  margin: 0;
+  font-size: 12px;
+}
+
+.tab .tip {
+  padding-left: 30px;
+}
+
+.sort .tip {
+  padding-top: 12px;
+}
+
+input[type="radio"] {
+  display: none;
+}
+
+input[type="radio"] + label {
+  display: inline-flex;
+  align-items: center;
+  cursor: pointer;
+  position: relative;
+  padding-left: 30px;
+  font-size: 14px;
+  color: inherit;
+}
+
+input[type="radio"] + label::before {
+  content: "";
+  width: 16px;
+  height: 16px;
+  border-radius: 50%;
+  border: 2px solid #3572af;
+  background-color: transparent;
+  position: absolute;
+  left: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  transition: background-color 0.3s ease, border-color 0.3s ease;
+}
+
+input[type="radio"]:checked + label::before {
+  background-color: #3572af;
+  border-color: #3572af;
+}
+
+input[type="radio"] + label::after {
+  content: "";
+  width: 10px;
+  height: 10px;
+  background-color: white;
+  border-radius: 50%;
+  position: absolute;
+  left: 5px;
+  top: 50%;
+  transform: translateY(-50%) scale(0);
+  transition: transform 0.3s ease;
+}
+
+input[type="radio"]:checked + label::after {
+  transform: translateY(-50%) scale(1);
+}
+
+/* Dark Mode */
+@media (prefers-color-scheme: dark) {
+  body {
+    color: white;
+    background-color: #1c1b22;
+  }
+
+  .tip {
+    color: #cccccc;
+  }
+}

@@ -1,0 +1,12 @@
+[Desktop Entry]
+Encoding=UTF-8
+Version=0.0.1
+Type=Application
+Name=Dynamic Workspaces
+Comment=Dynamic Workspaces for XFCE
+Exec=dynamic_workspaces.py
+OnlyShowIn=XFCE;
+RunHook=0
+StartupNotify=false
+Terminal=false
+Hidden=false

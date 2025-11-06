@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>T-Rex Runner</title>
+  <meta charset="utf-8" />
+  <!-- <link rel="stylesheet" href="css/bootstrap.min.css" /> -->
+  <link rel="stylesheet" href="css/trex-runner.css" />
+  <script src="js/cash.js"></script>
+</head>
+
+<body>
+  <main class="container">
+    <div class="runner-wrapper">
+      <div class="interstitial-wrapper"></div>
+      <div id="offline-resources">
+        <img id="offline-resources-1x" src="images/100-percent/100-offline-sprite.png" />
+        <img id="offline-resources-2x" src="images/200-percent/200-offline-sprite.png" />
+        <img id="offline-resources-1x-night" src="images/100-percent/offline-sprite-1x-night.png" />
+        <img id="offline-resources-2x-night" src="images/200-percent/offline-sprite-2x-night.png" />
+        <div id="audio-resources">
+          <audio id="offline-sound-press" src="sounds/button-press.mp3"></audio>
+          <audio id="offline-sound-hit" src="sounds/hit.mp3"></audio>
+          <audio id="offline-sound-reached" src="sounds/score-reached.mp3"></audio>
+        </div>
+      </div>
+      <script src="js/trex-runner.js"></script>
+      <div class="bot-status">
+        <span class="mr-8">
+          <label>Active Bot</label>
+          <input id="active-bot" type="checkbox" name="bot-switch" />
+        </span>
+        <span class="mr-8">
+          <label>Pause</label>
+          <input id="pause-game" type="checkbox" name="pause-switch" />
+        </span>
+      </div>
+      <!-- <div class="adv-bar">
+          <span class="text-black">
+            Play on
+            <a
+              class="text-black"
+              href="http://t-rex-runner.top?ref=trr-crx"
+              target="_blank"
+            >
+              Website
+            </a>
+          </span>
+        </div> -->
+      <script src="js/bot.js"></script>
+    </div>
+  </main>
+</body>
+
+</html>
