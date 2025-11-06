@@ -1,0 +1,33 @@
+{
+  "type": "object",
+  "properties": {
+    "SuppressWelcomeTab": {
+      "type": "boolean",
+      "title": "Suppress Welcome Tab",
+      "description": "Prevents the welcome tab from opening on first install"
+    },
+    "SilentLoginEnabled": {
+      "type": "boolean",
+      "title": "Silent Login Enabled",
+      "description": "Enables silent authentication without user interaction"
+    },
+    "Domain": {
+      "type": "string",
+      "title": "Domain",
+      "description": "Your domain for authentication and authorization (e.g., company.com)",
+      "pattern": "^([a-zA-Z0-9]([a-zA-Z0-9-]{0,61}[a-zA-Z0-9])?\\.)+[a-zA-Z]{2,}$"
+    },
+    "CheckAuthInterval": {
+      "type": "integer",
+      "title": "Check Auth Interval",
+      "description": "Interval in seconds for checking authentication status",
+      "minimum": 60,
+      "maximum": 86400
+    },
+    "AutoLoginOnStartup": {
+      "type": "boolean",
+      "title": "Auto Login On Startup",
+      "description": "Automatically attempts login when the extension starts"
+    }
+  }
+}

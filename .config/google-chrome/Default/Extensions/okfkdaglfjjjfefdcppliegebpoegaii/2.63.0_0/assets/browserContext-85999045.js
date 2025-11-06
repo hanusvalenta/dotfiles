@@ -1,0 +1,1 @@
+import{al as t}from"./store-f163b43d.js";t("browserContext/setTab"),t("browserContext/setWindow");const o=t("browserContext/setTotalTabCount"),e=t("browserContext/setBrowserContext");export{o as a,e as s};

@@ -1,0 +1,63 @@
+2025-11-06 01:05:27.950 [info] Extension host with pid 15047 started
+2025-11-06 01:05:27.974 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2025-11-06 01:05:28.017 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*'
+2025-11-06 01:05:28.020 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2025-11-06 01:05:28.070 [info] Eager extensions activated
+2025-11-06 01:05:28.074 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2025-11-06 01:05:28.078 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2025-11-06 01:05:32.897 [info] ExtensionService#_doActivateExtension vscode.configuration-editing, startup: false, activationEvent: 'onLanguage:jsonc'
+2025-11-06 01:05:32.905 [info] ExtensionService#_doActivateExtension vscode.json-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+2025-11-06 01:05:32.974 [info] ExtensionService#_doActivateExtension vscode.typescript-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+2025-11-06 01:06:32.977 [info] ExtensionService#_doActivateExtension eamodio.gitlens, startup: false, activationEvent: 'onStartupFinished'
+2025-11-06 01:06:33.272 [info] ExtensionService#_doActivateExtension vscode.github-authentication, startup: false, activationEvent: 'onAuthenticationRequest:github'
+2025-11-06 01:09:09.794 [info] ExtensionService#_doActivateExtension vscode.git, startup: false, activationEvent: 'api', root cause: vscode.github
+2025-11-06 01:09:09.872 [info] ExtensionService#_doActivateExtension mhutchie.git-graph, startup: false, activationEvent: '*'
+2025-11-06 01:09:09.882 [info] ExtensionService#_doActivateExtension felipecaputo.git-project-manager, startup: false, activationEvent: 'onStartupFinished'
+2025-11-06 01:11:17.677 [error] Error: 'github' authentication is required for this operation
+	at GitHubGitProvider.r (/home/hans/.vscode-oss/extensions/eamodio.gitlens-17.6.2-universal/dist/integrations.js:163:5428)
+2025-11-06 01:11:17.697 [error] Error: 'github' authentication is required for this operation
+	at GitHubGitProvider.r (/home/hans/.vscode-oss/extensions/eamodio.gitlens-17.6.2-universal/dist/integrations.js:163:5428)
+2025-11-06 01:11:25.848 [info] Extension host terminating: renderer closed the MessagePort
+2025-11-06 01:11:25.859 [error] An error occurred when disposing the subscriptions for extension 'eamodio.gitlens':
+2025-11-06 01:11:25.862 [error] TypeError: Cannot read properties of undefined (reading 'dispose')
+	at Object.dispose (file:///usr/share/codium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:147:132281)
+	at I_.<anonymous> (file:///usr/share/codium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:115:9945)
+	at I_.dispose (file:///usr/share/codium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:115:10041)
+	at Object.dispose (/home/hans/.vscode-oss/extensions/eamodio.gitlens-17.6.2-universal/dist/gitlens.js:2115:29269)
+	at /home/hans/.vscode-oss/extensions/eamodio.gitlens-17.6.2-universal/dist/gitlens.js:2394:17196
+	at Array.forEach (<anonymous>)
+	at Object.dispose (/home/hans/.vscode-oss/extensions/eamodio.gitlens-17.6.2-universal/dist/gitlens.js:2394:17178)
+	at Ei (file:///usr/share/codium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:25:746)
+	at file:///usr/share/codium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:124:18462
+	at file:///usr/share/codium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:25:1056
+	at Object.dispose (file:///usr/share/codium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:8:705)
+	at yJ._deactivate (file:///usr/share/codium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:124:14727)
+	at file:///usr/share/codium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:124:12013
+	at Array.map (<anonymous>)
+	at yJ._deactivateAll (file:///usr/share/codium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:124:12001)
+	at yJ.terminate (file:///usr/share/codium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:124:12354)
+	at B9.terminate (file:///usr/share/codium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:126:1082)
+	at ms (file:///usr/share/codium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:361:5320)
+	at MessagePortMain.<anonymous> (file:///usr/share/codium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:361:1775)
+	at MessagePortMain.emit (node:events:518:28)
+	at MessagePortMain._internalPort.emit (node:electron/js2c/utility_init:2:3073)
+2025-11-06 01:11:25.865 [info] Extension host with pid 15047 exiting with code 0
+2025-11-06 01:11:26.992 [info] Extension host with pid 16442 started
+2025-11-06 01:11:26.992 [info] Skipping acquiring lock for /home/hans/.config/VSCodium/User/workspaceStorage/c5106dfcf9c695183ec82ed9d4502aaf.
+2025-11-06 01:11:27.008 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*'
+2025-11-06 01:11:27.035 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2025-11-06 01:11:27.074 [info] ExtensionService#_doActivateExtension vscode.configuration-editing, startup: false, activationEvent: 'onLanguage:jsonc'
+2025-11-06 01:11:27.085 [info] ExtensionService#_doActivateExtension vscode.json-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+2025-11-06 01:11:27.144 [info] ExtensionService#_doActivateExtension vscode.typescript-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+2025-11-06 01:11:27.200 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2025-11-06 01:11:27.220 [info] Eager extensions activated
+2025-11-06 01:11:27.244 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2025-11-06 01:11:27.246 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2025-11-06 01:11:27.263 [info] ExtensionService#_doActivateExtension eamodio.gitlens, startup: false, activationEvent: 'onStartupFinished'
+2025-11-06 01:11:27.561 [info] ExtensionService#_doActivateExtension vscode.github-authentication, startup: false, activationEvent: 'onAuthenticationRequest:github'
+2025-11-06 01:11:29.474 [info] ExtensionService#_doActivateExtension vscode.git, startup: false, activationEvent: 'api', root cause: vscode.github
+2025-11-06 01:11:29.528 [info] ExtensionService#_doActivateExtension felipecaputo.git-project-manager, startup: false, activationEvent: 'onStartupFinished'
+2025-11-06 01:11:29.543 [info] ExtensionService#_doActivateExtension mhutchie.git-graph, startup: false, activationEvent: '*'
+2025-11-06 01:11:55.975 [warning] [Decorations] CAPPING events from decorations provider vscode.git 10000
+2025-11-06 01:12:38.036 [warning] [Decorations] CAPPING events from decorations provider vscode.git 10000
+2025-11-06 01:13:30.718 [warning] [Decorations] CAPPING events from decorations provider vscode.git 10000

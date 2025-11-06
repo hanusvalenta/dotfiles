@@ -1,2 +1,3 @@
-2025/11/05-17:36:26.971 3e7b Creating DB /home/hans/.config/google-chrome/Default/Extension Scripts since it was missing.
-2025/11/05-17:36:26.989 3e7b Reusing MANIFEST /home/hans/.config/google-chrome/Default/Extension Scripts/MANIFEST-000001
+2025/11/06-16:50:18.063 867 Reusing MANIFEST /home/hans/.config/google-chrome/Default/Extension Scripts/MANIFEST-000001
+2025/11/06-16:50:18.063 867 Recovering log #3
+2025/11/06-16:50:18.063 867 Reusing old log /home/hans/.config/google-chrome/Default/Extension Scripts/000003.log 

@@ -1,0 +1,1 @@
+import{j as i}from"./store-f163b43d.js";chrome.runtime.onMessage.addListener(({messageType:s},n,a)=>{s===i.GetSidepanelActive&&chrome.storage.local.set({sidepanelActive:!0})});const e=async()=>{chrome.runtime.sendMessage({messageType:"checkServerAvailability"})};e(),window.addEventListener("online",()=>e()),window.addEventListener("offline",()=>e());

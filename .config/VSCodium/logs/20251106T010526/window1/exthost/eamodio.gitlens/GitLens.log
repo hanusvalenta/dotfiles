@@ -1,0 +1,13 @@
+2025-11-06 01:06:33.623 [info] GitLens v17.6.2 activating in VSCodium (1.101.2) on the desktop; language='en', logLevel='warn', defaultDateLocale='null' (vscodium|someValue.machineId|someValue.sessionId)
+To enable debug logging, set `"gitlens.outputLevel": "debug"` or run "GitLens: Enable Debug Logging" from the Command Palette
+
+2025-11-06 01:11:17.152 [info] [2025-11-06 00:11:16.652] Warning(/usr/bin/git -c core.quotepath=false -c color.ui=false rev-parse --show-toplevel): fatal: not a git repository (or any of the parent directories): .git
+
+[2025-11-06 00:11:16.652] [GIT          ] [/home/hans/.vscode-oss] git rev-parse --show-toplevel • not a git repository (or any of the parent directories): .git [36ms]
+
+2025-11-06 01:11:27.917 [info] GitLens v17.6.2 activating in VSCodium (1.101.2) on the desktop; language='en', logLevel='warn', defaultDateLocale='null' (vscodium|someValue.machineId|someValue.sessionId)
+To enable debug logging, set `"gitlens.outputLevel": "debug"` or run "GitLens: Enable Debug Logging" from the Command Palette
+
+2025-11-06 01:11:29.923 [info] [2025-11-06 00:11:29.725] fs._handleError
+EntryNotFound (FileSystemError): Error: ENOENT: no such file or directory, open '/home/hans/.local/share/gk/repoMapping.json'
+

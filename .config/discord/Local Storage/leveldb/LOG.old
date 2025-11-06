@@ -1,3 +1,17 @@
-2025/11/05-21:58:19.568 759 Reusing MANIFEST /home/hans/.config/discord/Local Storage/leveldb/MANIFEST-000001
-2025/11/05-21:58:19.578 759 Recovering log #31
-2025/11/05-21:58:19.579 759 Reusing old log /home/hans/.config/discord/Local Storage/leveldb/000031.log 
+2025/11/06-09:34:49.787 97b Reusing MANIFEST /home/hans/.config/discord/Local Storage/leveldb/MANIFEST-000001
+2025/11/06-09:34:49.795 97b Recovering log #40
+2025/11/06-09:34:49.796 97b Reusing old log /home/hans/.config/discord/Local Storage/leveldb/000040.log 
+2025/11/06-09:41:23.595 97b Level-0 table #44: started
+2025/11/06-09:41:23.631 97b Level-0 table #44: 2774473 bytes OK
+2025/11/06-09:41:23.637 97b Delete type=0 #40
+2025/11/06-09:41:23.638 97b Compacting 4@0 + 2@1 files
+2025/11/06-09:41:23.687 97b Generated table #45@0: 25 keys, 2635490 bytes
+2025/11/06-09:41:23.725 97b Generated table #46@0: 78 keys, 2759445 bytes
+2025/11/06-09:41:23.726 97b Compacted 4@0 + 2@1 files => 5394935 bytes
+2025/11/06-09:41:23.730 97b compacted to: files[ 0 3 0 0 0 0 0 ]
+2025/11/06-09:41:23.730 97b Delete type=2 #36
+2025/11/06-09:41:23.730 97b Delete type=2 #39
+2025/11/06-09:41:23.730 97b Delete type=2 #41
+2025/11/06-09:41:23.730 97b Delete type=2 #44
+2025/11/06-09:41:23.730 97b Delete type=2 #34
+2025/11/06-09:41:23.730 97b Delete type=2 #33

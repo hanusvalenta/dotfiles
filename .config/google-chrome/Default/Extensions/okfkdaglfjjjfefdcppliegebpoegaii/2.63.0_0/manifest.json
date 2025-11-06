@@ -1,0 +1,96 @@
+{
+   "action": {
+      "default_title": "Scribe"
+   },
+   "background": {
+      "service_worker": "service-worker-loader.js",
+      "type": "module"
+   },
+   "content_scripts": [ {
+      "js": [ "assets/index.tsx-loader.js" ],
+      "match_origin_as_fallback": true,
+      "matches": [ "\u003Call_urls>" ],
+      "run_at": "document_end"
+   }, {
+      "all_frames": true,
+      "js": [ "assets/index.js-loader.js" ],
+      "match_origin_as_fallback": true,
+      "matches": [ "\u003Call_urls>" ],
+      "run_at": "document_end"
+   }, {
+      "all_frames": true,
+      "js": [ "assets/index.ts-loader.js" ],
+      "match_origin_as_fallback": true,
+      "matches": [ "\u003Call_urls>" ],
+      "run_at": "document_end"
+   }, {
+      "all_frames": true,
+      "js": [ "assets/index.ts-loader2.js" ],
+      "match_origin_as_fallback": true,
+      "matches": [ "\u003Call_urls>" ],
+      "run_at": "document_end"
+   }, {
+      "js": [ "assets/gmail.js-loader.js" ],
+      "match_origin_as_fallback": true,
+      "matches": [ "*://mail.google.com/*" ],
+      "run_at": "document_idle"
+   }, {
+      "js": [ "assets/index.tsx-loader.js" ],
+      "matches": [ "*://calendly.com/*" ],
+      "run_at": "document_idle"
+   }, {
+      "js": [ "assets/pointer-events.ts-loader.js" ],
+      "matches": [ "*://*.automatebusiness.com/*" ],
+      "run_at": "document_idle"
+   }, {
+      "js": [ "assets/index.ts-loader3.js" ],
+      "match_origin_as_fallback": true,
+      "matches": [ "\u003Call_urls>" ],
+      "run_at": "document_start"
+   } ],
+   "content_security_policy": {
+      "extension_pages": "script-src 'self'; object-src 'self'"
+   },
+   "description": "Document any workflow automatically. Share beautiful step-by-step guides in seconds. Save each team member 35 hours/month.",
+   "externally_connectable": {
+      "matches": [ "http://localhost/*", "http://localhost:3000/", "https://*.cursive.io/*", "https://*.scribehow.com/*", "https://*.scribe.com/*" ]
+   },
+   "host_permissions": [ "\u003Call_urls>" ],
+   "icons": {
+      "128": "public/logo-128-production.png",
+      "16": "public/logo-16-production.png",
+      "48": "public/logo-48-production.png"
+   },
+   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEApv+2LPPp/yhxOr4mWXOgOP4oRXmMbHJG9EPZZw8DSEXYgI/NmAS57uraHLX+8oLISw9b29HblntP6nBub6ZRGnpdRLToiGRIBKtsjUfwgx81+v4p5rkB20MtQli5h0abS4wGASx9t0/9n9SsH5rFVD1R2p58ukWQeAg/pWhKvmqAmiLyUE4qEUKJE4kSN72I6YqcG2tzUdv7mMi1ahDgnnp4Gh2TP5dKivL9FPEspLSWQ3x6++S+8fwtM05fwngMCNgOiLA6d5czED1zPm9bMPhyHugRqQbUMc3GytmOEEM00K1zGwTHOTxISFdqKdAlVtB3vtrcetVtFTzfHikQUQIDAQAB",
+   "manifest_version": 3,
+   "minimum_chrome_version": "99",
+   "name": "Scribe: AI Documentation, SOPs & Screenshots",
+   "optional_permissions": [ "notifications" ],
+   "options_page": "src/scripts/options/index.html",
+   "permissions": [ "tabs", "cookies", "storage", "scripting", "sidePanel", "alarms" ],
+   "side_panel": {
+      "default_path": "src/sidepanel/sidepanel-home.html"
+   },
+   "storage": {
+      "managed_schema": "managed_schema.json"
+   },
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "2.63.0",
+   "web_accessible_resources": [ {
+      "matches": [ "\u003Call_urls>" ],
+      "resources": [ "assets/PublicSans-VariableFont_wght.ttf", "assets/PublicSans-Italic-VariableFont_wght.ttf", "assets/icons/add.png", "assets/icons/recording.png", "audio-processor.js", "src/scripts/options/index.html", "src/scripts/options/sidepanel-options.html", "src/scripts/tab-selector/index.html", "src/scripts/main-content/index.html", "src/sidepanel/sidepanel-suggested-scribe-preview.html", "src/sidepanel/sidepanel-autocapture-onboarding.html", "src/sidepanel/sidepanel-recommended-scribes.html", "src/sidepanel/sidepanel-rejection-feedback.html", "assets/style.css", "assets/index.esm-e3d6f8ec.js", "assets/store-f163b43d.js", "assets/domUtils-9d0f6794.js", "assets/getTargetElementAttributes-3f1109f1.js", "assets/options-d8a3c135.js", "assets/index-24f6db5b.js", "assets/v4-c70744d4.js", "assets/_commonjsHelpers-de833af9.js", "assets/index-8b3efc3f.js", "assets/appTagUtils-f127d137.js", "assets/index.ts-8b1c768f.js", "assets/index.ts-4012a8b5.js", "assets/waitForPageSettled-5dce853c.js", "assets/index.ts-89f8331b.js" ],
+      "use_dynamic_url": false
+   }, {
+      "matches": [ "http://*/*", "https://*/*" ],
+      "resources": [ "assets/PublicSans-VariableFont_wght.ttf", "assets/sidekick-bg.png", "assets/sidekick-bg-3.png", "assets/spinner.png", "assets/Icon-f3e43e02.js", "assets/App.styles-7e62dbda.js", "assets/index-8b3efc3f.js", "assets/react-redux-52a3bd12.js", "assets/store-f163b43d.js", "assets/options-d8a3c135.js", "assets/index-24f6db5b.js", "assets/Button-97d280d1.js", "assets/Tooltip-cd1b4e9d.js", "assets/ExtensionDropdown-d7f09c83.js", "assets/useBackgroundReduxState-bd3d6a86.js", "assets/useDomainAllowlistListener-7908de64.js", "assets/useExtensionMessagesListener-367ac98c.js", "assets/index-eeca2896.js", "assets/waitForPageSettled-5dce853c.js", "assets/util-e36b51ae.js", "assets/Badge-4b362304.js", "assets/scribeLiveUtils-a357dd05.js", "assets/Chip-a9e6023b.js", "assets/Banner-f157b97e.js", "assets/index-c8b043be.js", "assets/DocumentIcon-1c27b6c5.js", "assets/TextInput-abe61b07.js", "assets/index-e131923d.js", "assets/_commonjsHelpers-de833af9.js", "assets/getExtensionStatus-1ed3356e.js", "assets/index.esm-e3d6f8ec.js", "assets/AudioSwitch-0040166e.js", "assets/Switch-3bd90944.js", "assets/redactionManager-d80ce84d.js", "assets/v4-c70744d4.js", "assets/domCopyAnnotate-a2b92afc.js", "assets/useToast-35be614d.js", "assets/utils-9daa9855.js", "assets/Checkbox-8ee7413e.js", "assets/Toaster-4f59bb56.js", "assets/appTagUtils-f127d137.js", "assets/index-3744168d.js", "assets/index-0b89f2da.js", "assets/index-6034fac0.js", "assets/index-025f2019.js", "assets/index-e309a1d1.js", "assets/allowedDomainsDB-163b9f7f.js", "assets/Toolbar-58c4db6f.js", "assets/index-3e4171d5.js", "assets/index-9279c646.js", "assets/FAIcon-609711c8.js", "assets/getGuideMeOptimizedElement-ced88426.js", "assets/getTargetElementAttributes-3f1109f1.js", "assets/browserContext-85999045.js", "assets/dwResultsDB-a3d52d5f.js", "assets/index-50993b56.js", "assets/index.tsx-66f5caf7.js", "assets/capture-helpers-74a29783.js", "assets/domUtils-9d0f6794.js", "assets/logging-70d989ca.js", "assets/index.js-f531938d.js" ],
+      "use_dynamic_url": false
+   }, {
+      "matches": [ "*://mail.google.com/*" ],
+      "resources": [ "assets/v4-c70744d4.js", "assets/gmail.js-513a7660.js" ],
+      "use_dynamic_url": false
+   }, {
+      "matches": [ "*://*.automatebusiness.com/*" ],
+      "resources": [ "assets/pointer-events.ts-c5afb801.js" ],
+      "use_dynamic_url": false
+   } ]
+}

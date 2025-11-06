@@ -1,0 +1,1 @@
+const o=()=>({shouldShowFeedback:async()=>{const e=((await chrome.storage.local.get(["dwScribeDeletionCount"])).dwScribeDeletionCount||0)+1;return await chrome.storage.local.set({dwScribeDeletionCount:e}),e===1||e%7===0}});export{o as u};

@@ -1,0 +1,5 @@
+2025-11-06 01:05:26.680 [info] update#setState disabled
+2025-11-06 01:05:26.680 [info] update#ctor - updates are disabled as there is no update URL
+2025-11-06 01:06:33.378 [error] CodeWindow: failed to load (reason: <unknown>, code: -3)
+2025-11-06 01:11:25.866 [info] Extension host with pid 15047 exited with code: 0, signal: unknown.
+2025-11-06 01:11:25.902 [error] [UtilityProcess id: 1, type: fileWatcher, pid: 15046]: crashed with code 15 and reason 'killed'

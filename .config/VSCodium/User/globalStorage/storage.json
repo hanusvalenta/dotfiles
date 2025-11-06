@@ -4,30 +4,31 @@
     "telemetry.devDeviceId": "3a5fecff-3536-4e66-adf9-18258d77176f",
     "backupWorkspaces": {
         "workspaces": [],
-        "folders": [],
-        "emptyWindows": [
+        "folders": [
             {
-                "backupFolder": "1762387242991"
+                "folderUri": "file:///home/hans/Documents/School"
             }
-        ]
+        ],
+        "emptyWindows": []
     },
     "windowControlHeight": 35,
     "profileAssociations": {
-        "workspaces": {},
-        "emptyWindows": {
-            "1762363688032": "__default__profile__",
-            "1762387242991": "__default__profile__"
-        }
+        "workspaces": {
+            "file:///home/hans/Downloads/dotfiles": "__default__profile__",
+            "file:///home/hans/Documents/School": "__default__profile__"
+        },
+        "emptyWindows": {}
     },
     "windowsState": {
         "lastActiveWindow": {
-            "backupPath": "/home/hans/.config/VSCodium/Backups/1762387242991",
+            "folder": "file:///home/hans/Documents/School",
+            "backupPath": "/home/hans/.config/VSCodium/Backups/34e8096b2dae46c2aa77b1ea5fce3074",
             "uiState": {
                 "mode": 0,
                 "x": 0,
                 "y": 0,
-                "width": 960,
-                "height": 1049
+                "width": 1920,
+                "height": 1080
             }
         },
         "openedWindows": []
@@ -56,10 +57,26 @@
             "editorPartMinWidth": 220,
             "titleBarHeight": 35,
             "activityBarWidth": 48,
-            "sideBarWidth": 0,
+            "sideBarWidth": 458,
             "auxiliarySideBarWidth": 0,
             "statusBarHeight": 22,
             "windowBorder": false
+        }
+    },
+    "windowSplashWorkspaceOverride": {
+        "layoutInfo": {
+            "sideBarWidth": 458,
+            "auxiliaryBarWidth": 300,
+            "workspaces": {
+                "c5106dfcf9c695183ec82ed9d4502aaf": {
+                    "sideBarVisible": true,
+                    "auxiliaryBarVisible": false
+                },
+                "f8349ca39b89d1536820940da4ffa2be": {
+                    "sideBarVisible": true,
+                    "auxiliaryBarVisible": false
+                }
+            }
         }
     }
 }
